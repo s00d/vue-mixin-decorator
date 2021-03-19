@@ -33,7 +33,7 @@ describe('@Component', () => {
 		wrapper.destroy();
 
 		// Assert
-		expect(wrapper.isVueInstance()).toBe(true);
+	  	expect(wrapper).toBeTruthy();
 		expect(spy).toHaveBeenNthCalledWith(1, first);
 		expect(spy).toHaveBeenNthCalledWith(2, second);
 		expect(spy).toHaveBeenNthCalledWith(3, third);
@@ -50,7 +50,7 @@ describe('@Mixin', () => {
 		const wrapper = mount(MyMixin);
 
 		// Assert
-		expect(wrapper.isVueInstance()).toBe(true);
+	  	expect(wrapper).toBeTruthy();
 	});
 
 	it('should bind a single mixin', () => {
@@ -80,7 +80,7 @@ describe('@Mixin', () => {
 		const wrapper = mount<MyComponent>(MyComponent);
 
 		// Assert
-		expect(wrapper.isVueInstance()).toBe(true);
+	  	expect(wrapper).toBeTruthy();
 		expect(mixinOneCreated).toBeCalledTimes(1);
 		expect(mixinOneCalledFromComponent).toBeCalledTimes(1);
 	});
@@ -135,7 +135,7 @@ describe('@Mixin', () => {
 		const wrapper = mount<MyComponent>(MyComponent);
 
 		// Assert
-		expect(wrapper.isVueInstance()).toBe(true);
+	  	expect(wrapper).toBeTruthy();
 		expect(mixinOneCreated).toBeCalledTimes(1);
 		expect(mixinTwoCreated).toBeCalledTimes(1);
 		expect(mixinOneCalledFromComponent).toBeCalledTimes(1);

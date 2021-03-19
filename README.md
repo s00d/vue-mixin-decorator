@@ -1,9 +1,9 @@
 # Vue Mixin Decorator
 
 
-[![Build Status](https://travis-ci.org/justrhysism/vue-mixin-decorator.svg?branch=master)](https://travis-ci.org/justrhysism/vue-mixin-decorator)
+[![Build Status](https://travis-ci.org/s00d/vue-mixin-decorator.svg?branch=master)](https://travis-ci.org/s00d/vue-mixin-decorator)
 [![npm](https://img.shields.io/npm/v/vue-mixin-decorator.svg)](https://www.npmjs.com/package/vue-mixin-decorator) 
-[![Greenkeeper badge](https://badges.greenkeeper.io/justrhysism/vue-mixin-decorator.svg)](https://greenkeeper.io/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/s00d/vue-mixin-decorator.svg)](https://greenkeeper.io/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 This library fully depends on [vue-class-component](https://github.com/vuejs/vue-class-component).
@@ -27,7 +27,7 @@ MIT License
 ## Install
 
 ```bash
-npm install --save-dev vue-mixin-decorator
+npm install --save-dev vue-mixin-decorator-updated
 ```
 
 ## Usage
