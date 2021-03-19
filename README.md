@@ -1,9 +1,11 @@
-# Vue Mixin Decorator
+# Vue Mixin Decorator Updated
+
+Fix deps!
 
 
-[![Build Status](https://travis-ci.org/s00d/vue-mixin-decorator.svg?branch=master)](https://travis-ci.org/s00d/vue-mixin-decorator)
-[![npm](https://img.shields.io/npm/v/vue-mixin-decorator.svg)](https://www.npmjs.com/package/vue-mixin-decorator) 
-[![Greenkeeper badge](https://badges.greenkeeper.io/s00d/vue-mixin-decorator.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/s00d/vue-mixin-decorator-updated.svg?branch=master)](https://travis-ci.org/s00d/vue-mixin-decorator-updated)
+[![npm](https://img.shields.io/npm/v/vue-mixin-decorator-updated.svg)](https://www.npmjs.com/package/vue-mixin-decorator-updated) 
+[![Greenkeeper badge](https://badges.greenkeeper.io/s00d/vue-mixin-decorator-updated.svg)](https://greenkeeper.io/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
 
 This library fully depends on [vue-class-component](https://github.com/vuejs/vue-class-component).
@@ -47,7 +49,7 @@ _Note: `@Mixin` is `@Component` exported from `vue-class-component`._
 
 ```typescript
 import Vue from 'vue';
-import { Component, Mixin, Mixins } from 'vue-mixin-decorator';
+import { Component, Mixin, Mixins } from 'vue-mixin-decorator-updated';
 
 @Mixin
 class MyMixin extends Vue {
@@ -71,7 +73,7 @@ class MyComponent extends Mixins<MyMixin>(MyMixin) {
 ### Multiple Mixins
 ```typescript
 import Vue from 'vue';
-import { Component, Mixin, Mixins } from 'vue-mixin-decorator';
+import { Component, Mixin, Mixins } from 'vue-mixin-decorator-updated';
 
 @Mixin
 class MyMixin extends Vue {
